@@ -24,6 +24,9 @@ function App() {
           <Route exact path={Routes.PROJECTDETAILS}>
             <ProjectPage />
           </Route>
+          <Route exact path={Routes.FOUROFOUR}>
+            <NotFoundPage />
+          </Route>
           <Redirect from={Routes.HOME} to={Routes.LANDING} />
           <Route exact path={Routes.LANDING}>
             <HomePage />
