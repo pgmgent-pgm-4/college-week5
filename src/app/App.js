@@ -8,11 +8,11 @@ import {
 import * as Routes from './routes';
 import { ContactPage, HomePage, NotFoundPage, WorkPage } from './pages';
 
-import './App.css';
+import styles from './App.module.scss';
 
 function App() {
   return (
-    <div className="app">
+    <div className={styles.app}>
       <Router>
         <Switch>
           <Route exact path={Routes.CONTACT}>

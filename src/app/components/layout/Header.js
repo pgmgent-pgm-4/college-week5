@@ -1,10 +1,9 @@
-import './Header.css';
-
 import MainNavigation from './MainNavigation';
+import styles from './Header.module.scss';
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className={styles.header}>
       <MainNavigation />
     </header>
   );
