@@ -1,8 +1,8 @@
+import * as Routes from '../../routes';
+
 import {
   Link
 } from "react-router-dom";
-
-import * as Routes from '../../routes';
 
 const MainNavigation = () => {
   return (
@@ -15,7 +15,7 @@ const MainNavigation = () => {
           <Link to={Routes.WORK}>Work</Link>
         </li>
         <li>
-          <Link to="{Routes.CONTACT}">Contact</Link>
+          <Link to={Routes.CONTACT}>Contact</Link>
         </li>
       </ul>
     </nav>
