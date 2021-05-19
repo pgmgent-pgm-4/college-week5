@@ -8,7 +8,7 @@ const NotFoundPage = () => {
   const history = useHistory();
 
   return (
-    <main>
+    <main className={styles.fullContainer}>
       <div className={styles.fof}>
         <div className={styles.callToActions}>
           <button onClick={() => history.push(Routes.LANDING, { from: "NotFoundPage" })}>Home</button>
