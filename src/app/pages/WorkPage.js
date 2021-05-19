@@ -1,9 +1,11 @@
 import { BaseLayout } from '../layouts';
 
+import { WorkList } from '../components/work';
+
 const WorkPage = () => {
   return (
     <BaseLayout>
-      WORK PAGE
+      <WorkList />
     </BaseLayout>
   );
 };
