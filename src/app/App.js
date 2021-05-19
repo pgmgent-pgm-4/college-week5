@@ -13,7 +13,7 @@ import styles from './App.module.scss';
 function App() {
   return (
     <div className={styles.app}>
-      <Router>
+      <Router basename={'college-week5'}>
         <Switch>
           <Route exact path={Routes.CONTACT}>
             <ContactPage />
