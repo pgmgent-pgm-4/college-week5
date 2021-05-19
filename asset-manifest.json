@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/college-week5/static/css/main.3ea5e650.chunk.css",
+    "main.js": "/college-week5/static/js/main.cc6cf282.chunk.js",
+    "main.js.map": "/college-week5/static/js/main.cc6cf282.chunk.js.map",
+    "runtime-main.js": "/college-week5/static/js/runtime-main.a8e9111c.js",
+    "runtime-main.js.map": "/college-week5/static/js/runtime-main.a8e9111c.js.map",
+    "static/js/2.d4d232e8.chunk.js": "/college-week5/static/js/2.d4d232e8.chunk.js",
+    "static/js/2.d4d232e8.chunk.js.map": "/college-week5/static/js/2.d4d232e8.chunk.js.map",
+    "static/js/3.3dce81b2.chunk.js": "/college-week5/static/js/3.3dce81b2.chunk.js",
+    "static/js/3.3dce81b2.chunk.js.map": "/college-week5/static/js/3.3dce81b2.chunk.js.map",
+    "index.html": "/college-week5/index.html",
+    "static/css/main.3ea5e650.chunk.css.map": "/college-week5/static/css/main.3ea5e650.chunk.css.map",
+    "static/js/2.d4d232e8.chunk.js.LICENSE.txt": "/college-week5/static/js/2.d4d232e8.chunk.js.LICENSE.txt",
+    "static/media/NotFoundPage.module.scss": "/college-week5/static/media/fof_background.b8e410e1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8e9111c.js",
+    "static/js/2.d4d232e8.chunk.js",
+    "static/css/main.3ea5e650.chunk.css",
+    "static/js/main.cc6cf282.chunk.js"
+  ]
+}
