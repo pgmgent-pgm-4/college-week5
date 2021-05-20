@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { useGdmGent } from '../../services';
-import Project from './Project';
-
 import './WorkList.module.scss';
+
+import React, { useEffect } from 'react';
+
+import Project from './Project';
+import { useGdmGent } from '../../services';
 
 const WorkList = () => {
   const {getWork, work} = useGdmGent();
@@ -12,12 +13,12 @@ const WorkList = () => {
       await getWork();
     }
 
-    fetchData();    
+    fetchData();
   }, [getWork]);
 
   return (
     <div className="row work-list">
-    {!!work 
+    {!!work
       ? work.map((project) => {
         return (
           <div className="col-12" key={project.Id}>
