@@ -1,6 +1,5 @@
 import React, {useCallback, useState} from 'react'
 
-import AutoFocusableInput from '../input/AutoFocusableInput';
 import BigList from '../list/BigList';
 
 const Button = () => {
